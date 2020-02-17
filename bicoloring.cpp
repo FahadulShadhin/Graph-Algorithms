@@ -40,7 +40,7 @@ bool is_bicolorable(int source) {
                 q.push(next);
             }
 
-            // If color of 'cur' and 'next' is same, that means two adjacent nodes hsve
+            // If color of 'cur' and 'next' is same, that means two adjacent nodes have
             // same color. That means the graph is not bicolorable.
             if(color[cur] == color[next]) 
                 return false;
@@ -62,7 +62,7 @@ int main() {
         graph[v].push_back(u); // Undirected graph.
     }
 
-    memset(color, WHITE, sizeof color); // Initially color of all nodes is set to white
+    memset(color, WHITE, sizeof color); // Initially color of all nodes is set to white.
 
     int source = 1;
     bool temp = is_bicolorable(source);
