@@ -30,7 +30,7 @@ void PRINT_SHORTEST_PATH(int source) {
 }
 
 void dijkstra(int source) {
-    priority_queue<PII, vector<PII>, greater<PII>> pq; // Max priority queue.
+    priority_queue<PII, vector<PII>, greater<PII>> pq;
 
     pq.push(make_pair(0, source)); 
     dist[source] = 0; // Distance of source node is zero.
