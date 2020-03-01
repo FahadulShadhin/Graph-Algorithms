@@ -1,3 +1,4 @@
+// https://www.hackerearth.com/practice/algorithms/graphs/minimum-spanning-tree/tutorial/
 /*
     >> Given an undirected and weighted graph.
     >> Prim's algorithm finds a spanning tree of the graph which connects all nodes and the sum of the weight of the edges is minimal.
@@ -41,8 +42,6 @@ int prim(int source) {
 }
 
 int main() {    
-    https://www.hackerearth.com/practice/algorithms/graphs/minimum-spanning-tree/tutorial/
-
     cout << "Total number of nodes and edges:\n";
     cin >> nodes >> edges;
     cout << "Two nodes having an edge between them and the weight of the edge:\n";
