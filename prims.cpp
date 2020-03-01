@@ -1,5 +1,5 @@
 // https://www.hackerearth.com/practice/algorithms/graphs/minimum-spanning-tree/tutorial/
-/*
+/*  ## Minimum Spanning Tree ##
     >> Given an undirected and weighted graph.
     >> Prim's algorithm finds a spanning tree of the graph which connects all nodes and the sum of the weight of the edges is minimal.
     >> A spanning tree is a single path in the graph, following which we can reach to any node from any other node.
