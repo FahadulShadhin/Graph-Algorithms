@@ -1,3 +1,10 @@
+/*
+  >> Given a Directed Acyclic Graph(DAG). Topological sorting for a DAG is ordering the nodes in such a way that for
+     a directed edge uv, node u comes before node v in the ordering.
+  >> Topological sort is only possibls in a DAG.
+  >> This algorithm works in O(V+E) time. Where V is the number of nodes and E is the number of edges.
+*/
+
 #include<bits/stdc++.h>
 #define MAX 1001
 using namespace std;
@@ -5,11 +12,11 @@ using namespace std;
 int nodes, edges, u, v;
 vector<int> graph[MAX];
 bool visited[MAX];
-int in_degree[MAX];
+int in_degree[MAX]; // Array to store in_degree of a node.
 
 void topologicalSort() {
     memset(visited, false, sizeof visited);
-    vector<int> T;
+    vector<int> T; // Topsort ordering array.
     queue<int> q;
 
     for(int i=1; i<=nodes; i++) {
@@ -42,7 +49,9 @@ void topologicalSort() {
 }
 
 int main() {
+    cout << "Number of nodes and edges:\n";
     cin >> nodes >> edges;
+    cout << "Directed edges between two nodes:\n";
     for(int i=0; i<edges; i++) {
         cin >> u >> v;
         graph[u].push_back(v);
