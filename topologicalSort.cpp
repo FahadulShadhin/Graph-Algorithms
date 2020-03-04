@@ -1,7 +1,7 @@
 /*
   >> Given a Directed Acyclic Graph(DAG). Topological sorting for a DAG is ordering the nodes in such a way that for
      a directed edge uv, node u comes before node v in the ordering.
-  >> Topological sort is only possibls in a DAG.
+  >> Topological sort is only possible in a DAG.
   >> This algorithm works in O(V+E) time. Where V is the number of nodes and E is the number of edges.
 */
 
