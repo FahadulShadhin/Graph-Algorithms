@@ -2,6 +2,8 @@
 #define MAX 101
 using namespace std;
 
+// n ---> Numner of nodes
+// m ---> Number of edges
 int n, m;
 vector<int> graph[MAX];
 int parent[MAX];
