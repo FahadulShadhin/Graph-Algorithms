@@ -14,6 +14,6 @@ This repository contains my C++ implementations of various graph algorithms.
 * Floyd Warshall Algorithm
 * Kruskal's Algorithm
 * Prim's Algorithm
-* Topological sorting
+* Topological Sorting
 * Detecting Cycle in a Graph
 -------------------------------------------------------------------------------------------------------------------------------------------
