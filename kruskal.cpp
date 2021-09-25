@@ -49,7 +49,7 @@ int kruskal(pair<int, pair<int, int>> graph[]){
 int main() {
     int weight, cost, minimumCost;
     make_set();
-    cout << "TOtal nodes in the graph: ";
+    cout << "Total nodes in the graph: ";
     cin >> nodes;
     cout << "Total edges in the graph: ";
     cin >> edges;
