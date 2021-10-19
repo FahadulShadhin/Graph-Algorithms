@@ -1,7 +1,6 @@
 # Graph Algorithms
 This repository contains my C++ implementations of various graph algorithms.
 
--------------------------------------------------------------------------------------------------------------------------------------------
 ## Algorithms:
 * Breadth First Search
 * Breadth First Search in 2D Grid
@@ -16,4 +15,3 @@ This repository contains my C++ implementations of various graph algorithms.
 * Prim's Algorithm
 * Topological Sorting
 * Detecting Cycle in a Graph
--------------------------------------------------------------------------------------------------------------------------------------------
